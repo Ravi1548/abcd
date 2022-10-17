@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, intial scale=1.0"> 
+        <title>Vendor login</title>
+        <link rel="stylesheet" href="../CSS/vendor.css"/>
+    </head>
+    <body align="center" >
+        <div id="divn">
+            <a href="homepage.html"> Home</a>
+            <a href="purchaseOrder.html">Purchase order</a>
+            <a href="assetCreation.html">Create Asset</a>
+            <!-- <a href="vendor.html">Vendor</a> -->
+            <a href="Order.html">Order</a>
+            <a href="login.html">Logout</a>
+            
+        </div>
+        <div id="div1">
+            <h1>
+              <b>Create Vendor</b>
+            </h1>
+            <br>
+            <label for="vendor_name">Vendor Name</label>
+            <br/>
+            <br>
+            <input id="vendor_name" type="text" placeholder="Full Name" required/>
+            <br/>
+            <br>
+            <label for="vendor_type">Vendor Type</label><br><br>
+            <input type="radio" value="supplier">Supplier</input>
+            <br/>
+            <br>
+            <select id="vendor_type">
+                <option disabled selected>Select From Here</option>
+              
+            </select>
+            <br/>
+            <br>
+            <label for="asset_type">Asset Type</label>
+            
+            <br>
+            <select id="asset_type">
+                <option disabled selected >Select here</option>
+                <option>Mobile</option>
+                <option>Thermal Printer</option>
+                <option>Sensor/option>
+                <option>laptop</option>
+            </select>
+            <br/>
+            <br>
+            <label for="valid_from">Valid From</label>
+            <br/>
+            <br>
+            <input id="valid_from" type="date" placeholder="DD/MM/YYY" required>
+            <br/>
+            <br>
+            <label for="valid_to">Valid To</label>
+            <br/>
+            <br>
+            <input id="valid_to" type="date" required/>
+            <br/>
+            <br>
+            <button type="button">Submit</button>
+            <br/>
+            <br>
+            <button type="button">Cancel</button>
+            <br/>
+
+        </div>
+    </body>
+</html> 

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purchase Order</title>
+    <link rel="stylesheet" href="../CSS/purchaseOrder.css">
+</head>
+
+<body>
+    <div id="div1">
+        <a href="homepage.html"> Home</a>
+        <a href="assetCreation.html">Create Asset</a>
+        <a href="vendor.html">Vendor</a>
+        <a href="Order.html">Order</a>
+        <a href="login.html">Logout</a>
+        
+    </div>
+    <div id="headdiv"><h1>Purchase Order</h1></div><hr>
+    <div id="outerdiv">
+    <div id="innerdiv">
+    <!-- <input type="hidden" value="id" required><br>
+    <input type="hidden" value="orderNo"> -->
+    <label>Asset Type</label>
+    <select>
+        <option disabled selected>Select From Here</option>
+        <option>Mobile</option>
+        <option>Thermal Printer</option>
+        <option>Sensor/option>
+        <option>laptop</option>
+    </select><br>
+    <label>Quantity</label> <input type="number" value="quantity" placeholder="Enter Quantity" required><br>
+    <label>Vendor Name</label> <select>
+        <option selected disabled>Select From Here</option>
+        <option>Samsung</option>
+        <option>Vivo</option>
+        <option>MI</option>
+        <option>ICOFSS</option>
+        <option>WiFi solutions</option>
+        <option>Talent Services</option>
+    </select><br>
+    <label>Order date</label>
+    <input type="date">
+    <label>Delivery date</label>
+    <input type="date"><br>
+    <label>Status</label> <select>
+        <option selected disabled>select here</option>
+        <option>Awaiting Delivery by Supplier</option>
+        <option>Consignment Recieved</option>
+        <option>Asset Details Registered internally</option>
+        <option>Identified Faulty</option>
+        <option>Replaced-Repaired</option>
+    </select><br>
+    <div id="btndiv">
+    <button type="button">Save</button> 
+    <button type="button">Cancel</button>
+</div>
+    
+</div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" >
+   
+    <title>My Portfolio</title>
+   
+    <!--https://fonts.gstatic.com
+        https://fonts.googleapis.com/css2?-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@300&family=Sacramento&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="../css/purchaseOrder.css">
+    
+</head>
+
+<body>
+    <div id="div1">
+        
+        <!-- <img src="team3.png"> -->
+        <a href="homepage.html"> Home</a>
+        <a href="purchaseOrder.html">Purchase order</a>
+        <!-- <a href="assetCreation.html">Create Asset</a> -->
+        <a href="vendor.html">Vendor</a>
+        <a href="Order.html">Order</a>
+        <a href="login.html">Logout</a>
+        
+    </div>
+    <form name="assetcreationform" method="post"></form>
+    
+        <div id="headdiv">
+        <h1>Create Asset</h1>
+    </div><hr>
+        <div id="outerdiv">
+        <div id="innerdiv">
+        <label for="assetname">Asset Name<span>*</span>:</label>
+        <input class="textcontrols" type="text" name="assetname" placeholder="eg. Thermal printer " required><br>
+
+        <label for="assettype">Asset Type<span>*</span>:</label>
+        <input class="textcontrols" type="text" name="assettype" placeholder="eg. Thermal printer " required><br>
+            <div>
+        <label for="classtype">Class</label>
+        <input class="radios" type="radio" name="classtype" value="HW">HW
+        <input class="radios" type="radio" name="classtype" value="CW">CW
+        </div>
+        <div id="btndiv">
+        <button type="submit">Create Asset</button>
+        <button type="reset">Clear</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#div1{
+    display: flex;
+    justify-content:flex-end;
+    border: 1px solid black;
+    background-color: #11383f;
+    height: 4rem;
+}
+a{
+    margin: 1rem;
+    color: white;
+    text-decoration: none;
+}
+img{
+    margin-right: 30rem;
+}
+/* body{
+    background-image: url(../Images/bg4.jpg);
+} */

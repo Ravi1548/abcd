@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMS-UserRegistration</title>
+    <link rel="stylesheet" href="../CSS/Registration.css">
+</head>
+<body>
+
+    
+    <table>
+    <div class="userdetails">
+
+        <div class="usermessage"><h2>User Registration</h2></div>
+
+        <div class="all">
+            <label>First Name:</label>
+            <input type="text" name="FistName" label placeholder="Firstname" >
+        </div>
+        <div class="all">
+            <label>Last Name:</label>
+            <input type="text" name="Lastname" id="Lastname" label placeholder="Lastname">
+        </div>
+
+        <!--Age-->
+        <div class="all"><label>Age :</label>
+            <input type="number" name="age" id="age">
+        </div>
+
+        <!--gender-->
+        <div class="all"><label>Gender</label>
+            <select class="select" >
+                <option value="Select" >Select</option>
+                <option value="Male" >Male</option>
+                <option value="Female" >Female</option>
+                <option value="Other" >Other</option>
+            </select>
+        </div>
+
+        <!--address-->
+        <div class="all">
+            <label>Address</label>
+            <input type="text" name="address" id="address">
+        </div>
+
+        <!--phone number-->
+        <div class="all">
+            <label>Phone Number</label>
+            <input type="number" name="Phone Number" id="phonenumber">
+        </div>
+
+
+        <!--register-->
+        <div class="all">
+            <input class="button" type="submit" value="Register" id="mybutton">
+            <a href="login.html">sign in</a>
+        </div>
+
+    </div>
+    </table>
+    <script>
+    
+        document.getElementById("mybutton").onclick = function(){
+            location.href = "login.html";
+        }
+    
+</script>
+    
+</body>
+</html>

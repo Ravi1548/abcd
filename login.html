@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMS-Login</title>
+    <!--Style sheet-->
+    <link rel="stylesheet" href="../CSS/login.css">
+</head>
+<body>
+
+    <table>
+        <div class="loginpage">
+            <div class="welcomemessage">
+                <h1>Welcome to AMS</h1>
+            </div>
+
+            <!--username-->
+            <div class="all">
+                <label>Username</label>
+                <input type="text"  id="Username"  placeholder="Enter Username" required/>
+            </div>
+
+            <!--password-->
+            <div class="all">
+                <label>Password</label>
+                <input type="password" id="Password"  placeholder="Enter Password" required >
+            </div>
+
+            <!--password-->
+            <div class="all">
+                <label for="passwordpage">Forgot Password?</label>
+                <a href="passwordchange.html">Change password</a>
+            </div>
+
+            <!--create new account-->
+            <div class="all">
+                <label>Don't have an account?</label>
+                <a href="Registration.html">Register</a>
+            </div>
+
+            <!--remember-->
+            <div class="all">
+                
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                
+            </div>
+
+            <!--login-->
+            <div class="all">
+                <input class="button" type="button" value="Submit" id="mybutton"/>
+            </div>
+
+
+
+        </div>
+    </table>
+<script>
+    
+        document.getElementById("mybutton").onclick = function(){
+            location.href = "homepage.html";
+        }
+    
+</script>
+
+</body>
+</html>
